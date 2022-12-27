@@ -1,0 +1,25 @@
+body { /* 태그이름 셀렉터 */
+    background-color: #333;
+    color: #999;
+}
+div{
+    color: wheat
+}  
+#BTS { /*아이디 셀렉터*/
+    color:red;
+}
+.list{ /*클레스 셀렉터*/
+    color:aqua
+}
+li:hover{ /* 가상 셀렉터 */
+    background-color: rgba(55,155,200,0.7);
+    color: black;
+}
+tr:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+#btn{
+    background-color: darkblue;
+    color: aliceblue;
+}
